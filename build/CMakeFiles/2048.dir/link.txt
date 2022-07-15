@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/2048.dir/src/main.cpp.o -o 2048  _deps/raylib-build/raylib/libraylib.a -lm -lpthread /usr/lib64/libGL.so _deps/raylib-build/raylib/external/glfw/src/libglfw3.a /usr/lib64/librt.a -lm -ldl 
