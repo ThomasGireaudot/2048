@@ -831,10 +831,16 @@ namespace Renderer {
                 if (!_sliding && MyRayLib::myGetGamepadAxisMovement(0, 0) < 0 &&
                     checkLeftSlide())
                     slideLeft();
+                if (!_sliding && MyRayLib::myGetGamepadAxisMovement(1, 0) < 0 &&
+                    checkLeftSlide())
+                    slideLeft();
                 if (!_sliding && MyRayLib::myIsKeyPressed(_left) &&
                     checkLeftSlide())
                     slideLeft();
                 if (!_sliding && MyRayLib::myGetGamepadAxisMovement(0, 0) > 0 &&
+                    checkRightSlide())
+                    slideRight();
+                if (!_sliding && MyRayLib::myGetGamepadAxisMovement(1, 0) > 0 &&
                     checkRightSlide())
                     slideRight();
                 if (!_sliding && MyRayLib::myIsKeyPressed(_right) &&
