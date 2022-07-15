@@ -13,6 +13,10 @@
 
 class MyRayLib {
     public:
+        static float myGetGamepadAxisMovement(int gamepad, int axis)
+        {
+            return (GetGamepadAxisMovement(gamepad, axis));
+        }
         static void myInitWindow(int width, int height, const char *title)
         {
             InitWindow(width, height, title);
