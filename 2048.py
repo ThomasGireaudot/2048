@@ -873,3 +873,4 @@ while running:
     clock.tick(60)
 pygame.joystick.quit()
 pygame.quit()
+print('end')
